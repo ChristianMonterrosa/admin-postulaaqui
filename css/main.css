@@ -31,7 +31,12 @@ label.form-label {
 }
 
 .info-law .card-body {
-  padding: 0.875rem;
+  padding: 0.75rem;
+}
+
+.card.info-law p {
+  font-size: 0.75rem !important;
+  font-weight: 600;
 }
 
 .display-info-law {
@@ -39,4 +44,23 @@ label.form-label {
   font-size: 0.875rem !important;
   font-weight: 500;
   margin-bottom: 0 !important;
+}
+
+.display-info-law .form-check-label {
+  font-size: 0.75rem !important;
+}
+
+.MultiFile-applied {
+  font-size: 0.75rem !important;
+}
+
+/* Table */
+.table thead th {
+  font-size: 0.75rem !important;
+  font-weight: 600;
+}
+
+.table-sm td,
+.table-sm th {
+  font-size: 0.75rem !important;
 }
