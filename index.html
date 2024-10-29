@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>Bootstrap 4.6.1 con Vite</title>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <h3>Modales</h3>
+        <!-- Botón para abrir la Modal de Identificador de Requerimiento-->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#IdReqModal">
+            Modal de Identificador de Requerimiento
+        </button>
+
+        <!-- Modal de Identificador de Requerimiento-->
+        <div class="modal fade" id="IdReqModal" tabindex="-1" role="dialog" aria-labelledby="miModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="miModalLabel">Identificador de Solicitud 311250</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        Contenido de la modal.
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                        <button type="button" class="btn btn-primary">Guardar Cambios</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Botón para abrir la Modal de Identificador de Requerimiento-->
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#AsigReqModal">
+            Modal de Asignación de Solicitud
+        </button>
+
+        <!-- Modal de Identificador de Requerimiento-->
+        <div class="modal fade" id="AsigReqModal" tabindex="-1" role="dialog" aria-labelledby="miModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-xl" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="miModalLabel">Asignación de Solicitud 311250</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body py-2">
+                        <span class="main-info">
+                            <!-- Row 1 -->
+                            <div class="row mb-1">
+                                <div class="col-md-4">
+                                    <div class="label-info">Empresa</div>
+                                    <div class="text-dark font-weight-bolder">CEST</div>
+                                </div>
+                                <div class="col-md-5">
+                                    <div class="label-info">Cuenta</div>
+                                    <div class="text-dark font-weight-bolder">CKOMATSU CUMMINS CHILE LTDA.EST</div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="label-info">Centro de costo</div>
+                                    <div class="text-dark font-weight-bolder">REGION METROPOLITANA</div>
+                                </div>
+                            </div>
+
+                            <!-- Row 2 -->
+                            <div class="row mb-1">
+                                <div class="col-md-5">
+                                    <div class="label-info">Cargo</div>
+                                    <div class="text-dark font-weight-bolder">COORDINADOR DE IMPORTACIONES</div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="label-info">Jornada</div>
+                                    <div class="text-dark font-weight-bolder">43.75HS5D</div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="label-info">Género</div>
+                                    <div class="text-dark font-weight-bolder"></div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="label-info">Causal</div>
+                                    <div class="text-dark font-weight-bolder">PROYECTO NUEVO</div>
+                                </div>
+                            </div>
+
+                            <!-- Row 3 -->
+                            <div class="row mb-3">
+                                <div class="col-md-7">
+                                    <div class="label-info">Lugar de trabajo</div>
+                                    <div class="text-dark font-weight-bolder">Avenida americo vespucio #3000,
+                                        Pudahuel, Sucursal Komatsu Lo Boza</div>
+                                </div>
+                                <div class="col-md-2">
+                                    <div class="label-info">Ciudad</div>
+                                    <div class="text-dark font-weight-bolder">QUILICURA</div>
+                                </div>
+                                <div class="col-md-3">
+                                    <div class="label-info">Región</div>
+                                    <div class="text-dark font-weight-bolder">REGION METROPOLITANA</div>
+                                </div>
+                            </div>
+                        </span>
+                        <!-- <hr> -->
+                        <form>
+                            <h5 class="modal-title">Información del postulante</h5>
+
+                            <!-- Row 1 -->
+                            <div class="row mb-2">
+                                <div class="col-md-3">
+                                    <label for="inputEmail4" class="form-label">Rut</label>
+                                    <input type="email" class="form-control" id="inputEmail4">
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="inputEmail4" class="form-label">Nombres</label>
+                                    <input type="email" class="form-control" id="inputEmail4">
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="inputEmail4" class="form-label">Apellido paterno</label>
+                                    <input type="email" class="form-control" id="inputEmail4">
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="inputEmail4" class="form-label">Apellido materno</label>
+                                    <input type="email" class="form-control" id="inputEmail4">
+                                </div>
+                            </div>
+
+                            <!-- Row 2 -->
+                            <div class="row mb-2">
+                                <div class="col-md-3">
+                                    <label for="inputEmail4" class="form-label">Dirección</label>
+                                    <input type="email" class="form-control" id="inputEmail4">
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="inputEmail4" class="form-label">Comuna</label>
+                                    <select id="inputState" class="custom-select">
+                                        <option selected>Selcciona comuna...</option>
+                                        <option>...</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="inputEmail4" class="form-label">Ciudad</label>
+                                    <select id="inputState" class="custom-select">
+                                        <option selected>Selcciona ciudad...</option>
+                                        <option>...</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="inputEmail4" class="form-label">Región</label>
+                                    <select id="inputState" class="custom-select">
+                                        <option selected>Selcciona región...</option>
+                                        <option>...</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Row 3 -->
+                            <div class="row mb-2">
+                                <div class="col-md-3">
+                                    <label for="inputEmail4" class="form-label">Celular</label>
+                                    <div class="input-group">
+                                        <div class="input-group-prepend">
+                                            <span class="input-group-text" id="basic-addon1">+56 9</span>
+                                        </div>
+                                        <input type="text" class="form-control" placeholder="" aria-label="Username"
+                                            aria-describedby="basic-addon1">
+                                    </div>
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="inputEmail4" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="inputEmail4">
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="inputEmail4" class="form-label">Contacto emergencia</label>
+                                    <input type="email" class="form-control" id="inputEmail4"
+                                        placeholder="Ej: María Gonzalez (mamá)">
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="inputEmail4" class="form-label">Celular emergencia</label>
+                                    <input type="email" class="form-control" id="inputEmail4">
+                                </div>
+                            </div>
+
+                            <!-- Row 4 -->
+                            <div class="row mb-2">
+                                <div class="col-md-3">
+                                    <label for="inputEmail4" class="form-label">AFP</label>
+                                    <select id="inputState" class="custom-select">
+                                        <option selected>Selcciona AFP...</option>
+                                        <option>...</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="inputEmail4" class="form-label">Salud</label>
+                                    <select id="inputState" class="custom-select">
+                                        <option selected>Selcciona Salud...</option>
+                                        <option>...</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-4">
+                                    <label for="inputEmail4" class="form-label">Tallas(Calzado, Pantalón,
+                                        Camisa)</label>
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <input type="number" class="form-control" placeholder="Ej: 39">
+                                        </div>
+                                        <div class="col">
+                                            <input type="text" class="form-control" placeholder="Ej: 48">
+                                        </div>
+                                        <div class="col">
+                                            <input type="text" class="form-control" placeholder="Ej: XL">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Row 5 -->
+                            <div class="row mb-3">
+                                <div class="col-md-3">
+                                    <label for="inputEmail4" class="form-label">Banco</label>
+                                    <select id="inputState" class="custom-select">
+                                        <option selected>Selcciona...</option>
+                                        <option>...</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="inputEmail4" class="form-label">Tipo de cuenta</label>
+                                    <select id="inputState" class="custom-select">
+                                        <option selected>Selcciona...</option>
+                                        <option>...</option>
+                                    </select>
+                                </div>
+                                <div class="col-md-3">
+                                    <label for="inputEmail4" class="form-label">Número de cuenta bancaria</label>
+                                    <input type="email" class="form-control" id="inputEmail4">
+                                </div>
+                            </div>
+                            <div class="row mb-3">
+                                <div class="col-12">
+                                    <div class="card info-law">
+                                        <div class="card-body">
+                                            <div class="card-title">
+                                                <div class="form-check">
+                                                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                                                    <label class="form-check-label" for="gridCheck">
+                                                        Ley 21015
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-7">
+                                                    <h6>Tipo de discapacidad</h6>
+                                                    <div class="row display-info-law">
+                                                        <div class="col-12">
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    id="inlineCheckbox1" value="option1">
+                                                                <label class="form-check-label"
+                                                                    for="inlineCheckbox1">AUDITIVA</label>
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    id="inlineCheckbox2" value="option2">
+                                                                <label class="form-check-label"
+                                                                    for="inlineCheckbox2">COGNITIVA</label>
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    id="inlineCheckbox2" value="option2">
+                                                                <label class="form-check-label"
+                                                                    for="inlineCheckbox2">FISICA</label>
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    id="inlineCheckbox1" value="option1">
+                                                                <label class="form-check-label"
+                                                                    for="inlineCheckbox1">PSIQUICA</label>
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    id="inlineCheckbox2" value="option2">
+                                                                <label class="form-check-label"
+                                                                    for="inlineCheckbox2">VISCERAL</label>
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    id="inlineCheckbox2" value="option2">
+                                                                <label class="form-check-label"
+                                                                    for="inlineCheckbox2">VISUAL</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-5">
+                                                    <h6>Certificados</h6>
+                                                    <div class="row display-info-law">
+                                                        <div class="col-12">
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    id="inlineCheckbox1" value="option1">
+                                                                <label class="form-check-label"
+                                                                    for="inlineCheckbox1">CREDENCIAL</label>
+                                                            </div>
+                                                            <div class="form-check form-check-inline">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    id="inlineCheckbox2" value="option2">
+                                                                <label class="form-check-label"
+                                                                    for="inlineCheckbox2">PENSION INVALIDEZ</label>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button> -->
+                        <button type="button" class="btn btn-primary">Agregar postulante</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+.modal-title {
+  color: #b54708;
+}
+
+.label-info {
+  color: #344054;
+  font-size: 0.875rem !important;
+  font-weight: 500;
+  /* margin-bottom: 0.25rem !important; */
+}
+
+.main-info .text-dark {
+  color: #101828;
+  font-size: 0.875rem !important;
+  /* font-weight: 500; */
+  /* margin-bottom: 0.25rem !important; */
+}
+
+label.form-label {
+  font-size: 0.813rem !important;
+  font-weight: 500;
+  margin-bottom: 0.25rem !important;
+}
+
+.input-group-text,
+.form-control,
+.custom-select {
+  /* border-radius: 0.25rem !important;
+  border: 1px solid #D0D5DD !important; */
+  font-size: 0.875rem !important;
+}
+
+.info-law .card-body {
+  padding: 0.875rem;
+}
+
+.display-info-law {
+  color: #344054;
+  font-size: 0.875rem !important;
+  font-weight: 500;
+  margin-bottom: 0 !important;
+}
