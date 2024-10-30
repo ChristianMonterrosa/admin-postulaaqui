@@ -9,11 +9,19 @@
   /* margin-bottom: 0.25rem !important; */
 }
 
+.main-info,
 .main-info .text-dark {
   color: #101828;
   font-size: 0.875rem !important;
   /* font-weight: 500; */
   /* margin-bottom: 0.25rem !important; */
+}
+
+.form-control {
+  height: 38px; /* Compactar la altura de los inputs */
+}
+.form-group {
+  margin-bottom: 8px !important; /* Reducir espacio entre campos */
 }
 
 label.form-label {
@@ -31,12 +39,16 @@ label.form-label {
 }
 
 .info-law .card-body {
-  padding: 0.75rem;
+  padding: 0.275rem 0.75rem;
 }
 
 .card.info-law p {
   font-size: 0.75rem !important;
   font-weight: 600;
+}
+
+.custom-switch .custom-control-label {
+  width: 100%;
 }
 
 .display-info-law {
